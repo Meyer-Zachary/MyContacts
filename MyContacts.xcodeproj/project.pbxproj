@@ -13,6 +13,7 @@
 		929741E81EE25853006C5B18 /* MyContacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 929741E61EE25853006C5B18 /* MyContacts.xcdatamodeld */; };
 		929741EA1EE25853006C5B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929741E91EE25853006C5B18 /* Assets.xcassets */; };
 		929741ED1EE25853006C5B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929741EB1EE25853006C5B18 /* LaunchScreen.storyboard */; };
+		929741F51EE25BB6006C5B18 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929741F41EE25BB6006C5B18 /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		929741E91EE25853006C5B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		929741EC1EE25853006C5B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		929741EE1EE25853006C5B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929741F41EE25BB6006C5B18 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				929741EB1EE25853006C5B18 /* LaunchScreen.storyboard */,
 				929741EE1EE25853006C5B18 /* Info.plist */,
 				929741E61EE25853006C5B18 /* MyContacts.xcdatamodeld */,
+				929741F41EE25BB6006C5B18 /* ContactTableViewController.swift */,
 			);
 			path = MyContacts;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929741F51EE25BB6006C5B18 /* ContactTableViewController.swift in Sources */,
 				929741E21EE25853006C5B18 /* ViewController.swift in Sources */,
 				929741E01EE25853006C5B18 /* AppDelegate.swift in Sources */,
 				929741E81EE25853006C5B18 /* MyContacts.xcdatamodeld in Sources */,
@@ -265,7 +269,7 @@
 		929741F21EE25853006C5B18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyContacts;
@@ -277,7 +281,7 @@
 		929741F31EE25853006C5B18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				INFOPLIST_FILE = MyContacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.rockvalleycollege.MyContacts;
@@ -305,6 +309,7 @@
 				929741F31EE25853006C5B18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
